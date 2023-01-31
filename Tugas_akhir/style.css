@@ -1,0 +1,40 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.img {
+  width: 90%;
+  height: 55rem;
+  margin: 0 auto;
+  display: block;
+}
+.colmn {
+  padding: 12rem;
+  margin: 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 320px) {
+  .img {
+    width: 97%;
+    height: 21rem;
+    margin-top: 4rem;
+    display: block;
+  }
+  .d-flex {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .colmn {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  .res-mb {
+    width: 97%;
+  }
+
+}
